@@ -59,6 +59,7 @@ void setup() {
  	Serial.begin(9600);
 }
 
+//TO DO Adapt to our drone project (make communication with raspberry and instantiate esc controllers and at runtime...)
 void loop() {
  	readSerialPort();
 
